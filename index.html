@@ -1,16 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Proyecto HTML y CSS - Lenguajes de Marcas (1º DAM)">
-  <title>Grupo 11 - Proyecto Web</title>
+  <title>TELSIC - Inicio</title>
+  <link rel="stylesheet" href="styless.css">
 </head>
 <body>
+  
+
+  <header>
+    <div class="logo-marca">
+      <p class="marca-pequena">CATÁLOGO DE COMPLEMENTOS</p>
+      <h1 class="logo-telsic">TELSIC</h1>
+    
+    </div>
+
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="relojes.html">Relojes</a></li>
+        <li><a href="pulseras.html">Pulseras</a></li>
+        <li><a href="anillos.html">Anillos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <main>
-    <h1>Grupo 11 – Grupo formado por Yessica Pérez López e Telmo Puceiro Romero</h1>
-    <h2>Proyecto Web · 1º DAM</h2>
-    <p>IES Armando Cotarelo Valledor · Lenguajes de Marcas</p>
+
+    <!--Sección nueva colección-->
+    <section aria-labelledby="seccion-nuevacolección">
+      <h2 id="seccion-portada">Nueva colección</h2>
+
+      <article>
+        <figure>
+  
+          <img src="imagenesrelojesetc.jpg"      
+               alt="IMÁGENES DE RELOJES, PULSERAS Y ANILLOS DE LAS NUEVAS COLECCIONES"> <!--No existen estas imágenes aún-->
+        </figure>
+      </article>
+    </section>
+
+    <!-- Encuentre sus complementos perfectos -->
+    <section aria-labelledby="seccion-complementos-perfectos">
+      <h2 id="seccion-complementos-perfectos">Encuentre sus complementos perfectos, adaptados a cada persona.</h2>
+
+      
+        <p>
+          Aquí pondremos secciones para hombres y mujeres, con complementos destacados que puedan interesar. <a href="pulseras.html">pulseras</a>
+          <a href="anillos.html">anillos</a> <a href="relojes.html">relojes</a>.
+        </p>
+      </article>
+    </section>
+
+    <!-- Marcas-->
+    <section aria-labelledby="seccion-marcas">
+      <h2 id="seccion-marcas">Marcas con las que trabajamos.</h2>
+
+      <article>
+    
+        <figure>
+          <img src="img/marcas.jpg"
+               alt="Fotografía de diferentes marcas de complementos">
+      
+        </figure>
+      </article>
+    </section>
+
+    <!-- Qué es TELSIC -->
+    <section aria-labelledby="seccion-que-es-telsic">
+      <h2 id="seccion-que-es-telsic">Qué es TELSIC</h2>
+
+      <p>
+        <strong>TELSIC</strong> es un catálogo de complementos centrado en relojes, pulseras y anillos
+        con un estilo elegante...
+      </p>
+    </section>
+
   </main>
+
+  <footer>
+    <p>&copy; 2025 <strong>TELSIC</strong></p>
+    <p>
+     Creado por <a href="contacto.html"><strong>Telmo</strong> &amp; <strong>Yessica</strong></a>
+    </p>
+  </footer>
+
 </body>
 </html>
