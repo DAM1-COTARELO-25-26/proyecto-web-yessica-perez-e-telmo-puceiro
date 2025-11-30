@@ -46,6 +46,16 @@ header {
   text-transform: uppercase;
   margin: 0.1rem 0;
   color: #f7f7f7;
+  display: inline-block;
+  cursor: pointer;
+
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.logo-telsic:hover {
+  transform: scale(1.08); 
+  color: #f0cf70;        
+  text-shadow: 0 0 12px rgba(240, 207, 112, 0.8); 
 }
 
 .marca-tagline {
@@ -167,17 +177,17 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* ==== RELOJES ==== */
-.relojes-modelos{
+/* ==== CATÁLOGO DE PRODUCTOS ==== */
+
+.productos-grid{
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* dos columnas */
+  grid-template-columns: repeat(3, 1fr); /* tres columnas */
   gap: 1.2rem;
   justify-items: center;
   margin-top: 1rem;
 }
 
 .reloj-card{
-  width: 320px;  /* tamaño de cada tarjeta */
   background: linear-gradient(135deg,#15151c 0%,#101015 100%);
   border: 1px solid #262635;
   border-radius: 14px;
@@ -207,8 +217,70 @@ footer a:hover {
   display: block;
 }
 
+.productos-grid article {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.productos-grid article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
 
 /* Texto */
 .reloj-card h3{ font-size:.98rem; margin-bottom:.3rem; min-height:2.8em; }
 .reloj-card .precio{ font-size:.95rem; color:#d0a74d; font-weight:700; margin-bottom:.2rem; }
 .reloj-card .desc{ font-size:.9rem; color:#cfcfcf; }
+
+
+/* ==== FORMULARIO  ==== */
+
+form {
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+form p {
+  margin-bottom: 0.8rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #444;
+  background-color: #111;
+  color: #f0f0f0;
+  font: inherit;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  margin-top: 0.4rem;
+  padding: 0.45rem 1.2rem;
+  border: 1px solid #b89540;
+  background-color: #d0a74d;
+  color: #111;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e6c45c;
+}
+
+
+
+
