@@ -109,6 +109,30 @@ section {
   border: 1px solid #262635;
 }
 
+
+
+.marcas {
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: center; 
+  gap: 10px;            
+}
+
+
+.marcas figure {
+  width: 30%;         
+  margin: 10px 0;
+  text-align: center;   
+}
+
+
+.marcas img {
+  width:200px;        
+  height: 200px;         
+  object-fit: contain;   
+}
+
+
 section h2 {
   margin-bottom: 0.85rem;
   font-size: 1.4rem;
@@ -188,11 +212,11 @@ footer a:hover {
 }
 
 .reloj-card{
-  background: linear-gradient(135deg,#15151c 0%,#101015 100%);
-  border: 1px solid #262635;
+
+
   border-radius: 14px;
   padding: .85rem;
-  box-shadow: 0 0 20px rgba(0,0,0,.4);
+ 
   display: flex;
   flex-direction: column;
 }
@@ -200,7 +224,7 @@ footer a:hover {
 .reloj-card figure{
   width: 100%;
   aspect-ratio: 4 / 5;  /* misma proporción para todas */
-  background:#0e0e13;
+
   border-radius: 10px;
   padding: .6rem;
   margin-bottom:.55rem;
@@ -237,6 +261,9 @@ footer a:hover {
 form {
   margin-top: 1rem;
   max-width: 400px;
+  margin: 2rem auto; /* Centra el formulario y da espacio arriba/abajo */
+
+
 }
 
 form p {
@@ -275,6 +302,9 @@ input[type="submit"] {
   text-transform: uppercase;
   font-size: 0.8rem;
   cursor: pointer;
+
+  display: block;    
+  margin: 1rem auto 0 auto; 
 }
 
 input[type="submit"]:hover {
