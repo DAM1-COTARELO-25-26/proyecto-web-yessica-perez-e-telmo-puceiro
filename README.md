@@ -10,19 +10,39 @@ El objetivo es ofrecer una página sencilla, clara y visual donde los usuarios p
 El sitio está dirigido a **personas interesadas en la moda y los accesorios**, especialmente jóvenes y adultos que buscan artículos elegantes para informarse o comprar.
 
 ## 🎨 Paleta de colores y tipografía
-- **Colores:** blanco, gris, azul y negro (para el texto).  
-- **Tipografía:** fuente *sans-serif* o una fuente elegante y legible.  
+- **Colores:** negro, blanco, dorado  
+- **Tipografía:** fuente elegante y legible.  
 
 ## 🗂️ Estructura del sitio
 El sitio web está formado por **cinco páginas principales**:
 
-1. **index.html** – Página de inicio. Presenta el nombre del catálogo y una breve introducción.  
+1. **index.html** – Página de inicio. Presenta destacados del catálogo, marcas colaboradoras y una breve introducción.
 2. **relojes.html** – Catálogo de relojes con nombre, descripción, material y precio.  
 3. **pulseras.html** – Catálogo de pulseras con nombre, descripción, material y precio.  
 4. **anillos.html** – Catálogo de anillos con nombre, descripción, material y precio.  
 5. **contacto.html** – Página de contacto con formulario para consultas o pedidos.  
 
+## 📊 Estructura de Datos XML
+
+### Descripción
+Este proyecto utiliza XML para estructurar el catálogo completo de productos (relojes, pulseras y anillos) de la tienda TELSIC, permitiendo una gestión organizada de especificaciones, precios y disponibilidad.
+
+### Archivos
+**`/datos/catalogo.xml`**: Contiene la base de datos con 18 productos y sus detalles técnicos.
+**`/datos/catalogo.dtd`**: Validador DTD externo que asegura la estructura y jerarquía de los elementos.
+**`/datos/catalogo.xsd`**: Schema XSD que aplica restricciones avanzadas de tipos de datos y patrones.
+
+### Estructura principal
+El árbol XML se organiza en una jerarquía de 3 niveles de profundidad:
+1. **Nivel 1 (Raíz):** `<catalogo>`, que actúa como el contenedor global de todos los productos.
+2. **Nivel 2 (Entidad):** `<producto>`, que utiliza atributos como `id` (identificador único) y `categoria` (metadato de clasificación).
+3. **Nivel 3 (Detalles):** Elementos que contienen la información específica: `<nombre>`, `<descripcion>`, `<especificaciones>`, `<precio>`, `<fechaRegistro>` y `<disponible>`.
+
+### Validación
+El catálogo ha sido validado satisfactoriamente sin errores. 
+👉 **[/datos/validacion.md](./datos/validacion.md)**.
+
 ## 👥 Autores del grupo
 **Yessica Pérez López y Telmo Puceiro Romero**  
 **Asignatura:** Lenguajes de Marcas  
-**Entrega:** 0 – Idea del Proyecto
+**Entrega:** 3 –  Datos estructurados con XML

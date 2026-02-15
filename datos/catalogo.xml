@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "catalogo.dtd">
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="catalogo.xsd">
+
+    <producto id="R001" categoria="relojes">
+        <nombre>Seiko Prestage Cocktail</nombre>
+        <descripcion>Reloj automático con esfera texturizada.</descripcion>
+        <especificaciones>
+            <material>Acero Inoxidable</material>
+            <dimension>33.8mm</dimension>
+        </especificaciones>
+        <precio moneda="EUR">340.00</precio>
+        <fechaRegistro>2024-09-09</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="R002" categoria="relojes">
+        <nombre>Orient Bambino</nombre>
+        <descripcion>Reloj de vestir con cristal abombado y estética retro.</descripcion>
+        <especificaciones>
+            <material>Caja de Inox</material>
+            <material>Correa de piel</material>
+            <dimension>40.5mm</dimension>
+        </especificaciones>
+        <precio moneda="EUR">265.50</precio>
+        <fechaRegistro>2024-12-17</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="R003" categoria="relojes">
+        <nombre>Oyster Perpetual 41 Pistachio</nombre>
+        <descripcion>Modelo icónico con esfera color pistacho.</descripcion>
+        <especificaciones>
+            <material>Acero Oystersteel</material>
+            <dimension>41mm</dimension>
+        </especificaciones>
+        <precio moneda="EUR">6700.00</precio>
+        <fechaRegistro>2025-01-20</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="R004" categoria="relojes">
+        <nombre>Audemars Piguet</nombre>
+        <descripcion>Pieza de alta relojería con acabados en oro.</descripcion>
+        <especificaciones>
+            <material>Oro 18k</material>
+            <dimension>41.5mm</dimension>
+        </especificaciones>
+        <precio moneda="EUR">5900.00</precio>
+        <fechaRegistro>2024-12-01</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="R005" categoria="relojes">
+        <nombre>Tudor</nombre>
+        <descripcion>Reloj robusto y elegante con diseño contemporáneo.</descripcion>
+        <especificaciones>
+            <material>Acero</material>
+            <dimension>40mm</dimension>
+        </especificaciones>
+        <precio moneda="EUR">1050.00</precio>
+        <fechaRegistro>2025-02-01</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="R006" categoria="relojes">
+        <nombre>Breguet Heritage</nombre>
+        <descripcion>Diseño tonneau clásico con grabados a mano.</descripcion>
+        <especificaciones>
+            <material>Oro rosa 18k</material>
+            <dimension>41.5mm</dimension>
+        </especificaciones>
+        <precio moneda="EUR">3630.00</precio>
+        <fechaRegistro>2024-03-26</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="P001" categoria="pulseras">
+        <nombre>Cartier D'Amour</nombre>
+        <descripcion>Pulsera minimalista con diamante engastado.</descripcion>
+        <especificaciones>
+            <material>Oro Blanco</material>
+            <material>Diamante</material>
+        </especificaciones>
+        <precio moneda="EUR">2050.00</precio>
+        <fechaRegistro>2024-01-18</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="P002" categoria="pulseras">
+        <nombre>Guess Marmounia</nombre>
+        <descripcion>Accesorio con logo grabado y acabado brillante.</descripcion>
+        <especificaciones>
+            <material>Acero inoxidable</material>
+        </especificaciones>
+        <precio moneda="EUR">150.00</precio>
+        <fechaRegistro>2024-06-23</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="P003" categoria="pulseras">
+        <nombre>Pandora brazalete</nombre>
+        <descripcion>Brazalete icónico para charms con cierre de seguridad.</descripcion>
+        <especificaciones>
+            <material>Plata Esterlina</material>
+            <material>Circonita cúbica</material>
+        </especificaciones>
+        <precio moneda="EUR">2347.50</precio>
+        <fechaRegistro>2025-01-17</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="P004" categoria="pulseras">
+        <nombre>Tiffany &amp; Co</nombre>
+        <descripcion>Diseño atemporal con perlas.</descripcion>
+        <especificaciones>
+            <material>Plata de ley</material>
+            <material>Perlas de agua</material>
+        </especificaciones>
+        <precio moneda="EUR">810.00</precio>
+        <fechaRegistro>2024-11-22</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="P005" categoria="pulseras">
+        <nombre>Van Cleef</nombre>
+        <descripcion>Motivo Alhambra de cuatro hojas en nácar.</descripcion>
+        <especificaciones>
+            <material>Oro amarillo</material>
+            <material>Nácar</material>
+        </especificaciones>
+        <precio moneda="EUR">3300.00</precio>
+        <fechaRegistro>2024-11-02</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="P006" categoria="pulseras">
+        <nombre>Viceroy</nombre>
+        <descripcion>Estilo moderno con acabados metálicos.</descripcion>
+        <especificaciones>
+            <material>Acero chapado</material>
+            <material>Plata</material>
+        </especificaciones>
+        <precio moneda="EUR">190.00</precio>
+        <fechaRegistro>2024-10-30</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="A001" categoria="anillos">
+        <nombre>Pandora Banda Brillante</nombre>
+        <descripcion>Anillo apilable con hilera de piedras.</descripcion>
+        <especificaciones>
+            <material>Oro 14k</material>
+        </especificaciones>
+        <precio moneda="EUR">59.00</precio>
+        <fechaRegistro>2025-02-10</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="A002" categoria="anillos">
+        <nombre>Suarez solitario</nombre>
+        <descripcion>Anillo de compromiso clásico.</descripcion>
+        <especificaciones>
+            <material>Oro blanco 18k</material>
+        </especificaciones>
+        <precio moneda="EUR">1550.00</precio>
+        <fechaRegistro>2025-01-13</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="A003" categoria="anillos">
+        <nombre>Bulgari Serpenti Viper</nombre>
+        <descripcion>Diseño envolvente que evoca a la serpiente.</descripcion>
+        <especificaciones>
+            <material>Oro rosa</material>
+            <material>Diamante</material>
+        </especificaciones>
+        <precio moneda="EUR">4450.00</precio>
+        <fechaRegistro>2024-05-30</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="A004" categoria="anillos">
+        <nombre>JL RainForest</nombre>
+        <descripcion>Anillo con piedra central verde.</descripcion>
+        <especificaciones>
+            <material>Oro 18k</material>
+            <material>Esmeralda</material>
+        </especificaciones>
+        <precio moneda="EUR">147.00</precio>
+        <fechaRegistro>2024-12-05</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="A005" categoria="anillos">
+        <nombre>TOUS Les Classiques</nombre>
+        <descripcion>Elegancia clásica en platino.</descripcion>
+        <especificaciones>
+            <material>Platino de ley</material>
+            <material>Diamantes</material>
+        </especificaciones>
+        <precio moneda="EUR">1900.00</precio>
+        <fechaRegistro>2024-10-10</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+    <producto id="A006" categoria="anillos">
+        <nombre>Aristocrazy LAB GROWN</nombre>
+        <descripcion>Diamantes creados en laboratorio.</descripcion>
+        <especificaciones>
+            <material>Oro amarillo 9k</material>
+        </especificaciones>
+        <precio moneda="EUR">799.00</precio>
+        <fechaRegistro>2025-04-13</fechaRegistro>
+        <disponible>true</disponible>
+    </producto>
+
+</catalogo>
+
+

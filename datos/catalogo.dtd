@@ -1,0 +1,22 @@
+<!ELEMENT catalogo (producto+)>
+<!ATTLIST catalogo 
+          xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+
+<!ELEMENT producto (nombre, descripcion, especificaciones, precio, fechaRegistro, disponible)>
+<!ATTLIST producto 
+          id CDATA #REQUIRED
+          categoria (relojes|pulseras|anillos) #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT especificaciones (material+, dimension?)>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT dimension (#PCDATA)>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #FIXED "EUR">
+
+<!ELEMENT fechaRegistro (#PCDATA)>
+<!ELEMENT disponible (#PCDATA)>
