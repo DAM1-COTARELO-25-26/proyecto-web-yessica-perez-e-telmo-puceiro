@@ -42,13 +42,12 @@ El árbol XML se organiza en una jerarquía de 3 niveles de profundidad:
 El catálogo ha sido validado satisfactoriamente sin errores. 
 👉 **[/datos/validacion.md](./datos/validacion.md)**.
 
+## Fase 4 - Transformación XSLT y consultas XPath
+
 Archivos añadidos / modificados:
-- `/xslt/menu-to-html.xsl` — Hoja de transformación XSLT (XSLT 1.0 compatible).
-- `/datos/menu.xml` — Copia del `catalogo.xml` usada como fuente.
+- `/xslt/menu-to-html.xsl` — Hoja de transformación XSLT.
 - `/menu.html` — HTML5 generado por la transformación XSLT.
 - `/datos/consultas-xpath.md` — 10 consultas XPath documentadas.
-- `/img/menu-generado.png` y `/img/xpath-testing.png` —.
-
 Cómo ejecutar la transformación:
 
 1. **Desde un navegador**:
@@ -63,5 +62,4 @@ Cómo ejecutar la transformación:
 **Yessica Pérez López y Telmo Puceiro Romero**  
 **Asignatura:** Lenguajes de Marcas  
 **Entrega:** 3 –  Datos estructurados con XML
-## Fase 4 - Transformación XSLT y consultas XPath
 
