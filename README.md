@@ -48,6 +48,7 @@ Archivos añadidos / modificados:
 - `/xslt/menu-to-html.xsl` — Hoja de transformación XSLT.
 - `/menu.html` — HTML5 generado por la transformación XSLT.
 - `/datos/consultas-xpath.md` — 10 consultas XPath documentadas.
+- `/readme.md´ - 
 Cómo ejecutar la transformación:
 
 1. **Desde un navegador**:
@@ -56,7 +57,7 @@ Cómo ejecutar la transformación:
 
 2. **Usando xsltproc (línea de comandos)**:
    ```bash
-   xsltproc xslt/menu-to-html.xsl datos/menu.xml > menu.html
+   xsltproc xslt/menu-to-html.xsl menu.html
 
 ## 👥 Autores del grupo
 **Yessica Pérez López y Telmo Puceiro Romero**  
