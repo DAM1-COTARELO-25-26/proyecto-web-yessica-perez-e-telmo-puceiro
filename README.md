@@ -46,3 +46,21 @@ El catálogo ha sido validado satisfactoriamente sin errores.
 **Yessica Pérez López y Telmo Puceiro Romero**  
 **Asignatura:** Lenguajes de Marcas  
 **Entrega:** 3 –  Datos estructurados con XML
+## Fase 4 - Transformación XSLT y consultas XPath
+
+Archivos añadidos / modificados:
+- `/xslt/menu-to-html.xsl` — Hoja de transformación XSLT (XSLT 1.0 compatible).
+- `/datos/menu.xml` — Copia del `catalogo.xml` usada como fuente.
+- `/menu.html` — HTML5 generado por la transformación XSLT.
+- `/datos/consultas-xpath.md` — 10 consultas XPath documentadas.
+- `/img/menu-generado.png` y `/img/xpath-testing.png` —.
+
+Cómo ejecutar la transformación:
+
+1. **Desde un navegador**:
+   `<?xml-stylesheet type="text/xsl" href="/xslt/menu-to-html.xsl"?>`
+
+
+2. **Usando xsltproc (línea de comandos)**:
+   ```bash
+   xsltproc xslt/menu-to-html.xsl datos/menu.xml > menu.html
